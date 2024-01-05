@@ -1,0 +1,28 @@
+@tailwind base;
+body {
+  background-color: #e8e8e8;
+}
+/* login form */
+.or-signin:before {
+  content: "";
+  display: block;
+  width: 199.156px;
+  height: 1px;
+  background: #e4ebf3;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.or-signin:after {
+  content: "";
+  display: block;
+  width: 199.156px;
+  height: 1px;
+  background: #e4ebf3;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+@tailwind components;
+@tailwind utilities;
